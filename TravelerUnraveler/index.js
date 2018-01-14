@@ -1,3 +1,5 @@
-import App from './app/index';
+import { AppRegistry } from 'react-native';
+import App from './App';
 
-export default App;
+AppRegistry.registerComponent('TravelerUnraveler', () => App);
+
