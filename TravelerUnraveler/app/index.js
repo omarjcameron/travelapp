@@ -3,7 +3,7 @@ import EStyleSheet from 'react-native-extended-stylesheet';
 import Home from './screens/Home';
 
 EStyleSheet.build({
-  $primaryBlue: '#4F6D7A',
+  $primaryGreen: '#00BD9D',
 });
 
 export default () => <Home />;
