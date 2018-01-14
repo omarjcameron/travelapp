@@ -13,7 +13,10 @@
     "react-native-scripts": "1.8.1"
   },
   "scripts": {
-    "start": "node lib/server.js",
+    "start": "react-native-scripts start",
+    "eject": "react-native-scripts eject",
+    "android": "react-native-scripts android",
+    "ios": "react-native-scripts ios",
     "prettier": "prettier --write **/*.js",
     "lint": "eslint app/",
     "lint:fix": "eslint app/ --fix"
