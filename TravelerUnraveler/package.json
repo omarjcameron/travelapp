@@ -1,0 +1,25 @@
+{
+  "name": "TravelerUnraveler",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "eslint": "^4.15.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.5.1",
+    "prettier": "^1.10.2",
+    "react-native-scripts": "1.8.1"
+  },
+  "scripts": {
+    "prettier": "prettier --write **/*.js",
+    "lint": "eslint app/",
+    "lint:fix": "eslint app/ --fix"
+  },
+  "dependencies": {
+    "@expo/vector-icons": "6.2.0",
+    "color": "2.0.0",
+    "moment": "2.18.1",
+    "react-native-extended-stylesheet": "0.8.0"
+  }
+}
