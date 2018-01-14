@@ -27,8 +27,8 @@
     "expo": "^23.0.0",
     "moment": "2.18.1",
     "prop-types": "^15.6.0",
-    "react": "^16.2.0",
-    "react-native": "^0.52.0",
+    "react": "^16.0.0",
+    "react-native": "^0.50.2",
     "react-native-extended-stylesheet": "0.8.0"
   }
 }
