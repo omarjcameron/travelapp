@@ -1,4 +1,4 @@
-import PropTypes from 'prop-types';
+import React, { PropTypes } from 'react';
 import { View } from 'react-native';
 
 const Container = ({ children }) => (
