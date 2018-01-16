@@ -13,7 +13,7 @@ const Header = ({ onPress }) => (
 );
 
 
-Header.propTyes = {
+Header.propTypes = {
   onPress: PropTypes.func,
 };
 
