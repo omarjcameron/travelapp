@@ -88,7 +88,7 @@ class Logo extends Component {
             source={require('./images/logo.png')}
           />
         </Animated.View>
-        <Text style={styles.text}>Currency Converter</Text>
+        <Text style={styles.text}>Traveler Unraveler</Text>
       </View>
     );
   }
