@@ -8,8 +8,8 @@ import { ListItem, Separator } from '../components/List';
 import { changePrimaryColor } from '../actions/theme';
 
 const styles = EStyleSheet.create({
-  $blue: '$primaryBlue',
   $green: '$primaryGreen',
+  $blue: '$primaryBlue',
   $orange: '$primaryOrange',
   $purple: '$primaryPurple',
 });
