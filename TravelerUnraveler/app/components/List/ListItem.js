@@ -34,5 +34,4 @@ ListItem.propTypes = {
   iconBackground: PropTypes.string,
 };
 
-
 export default ListItem;
