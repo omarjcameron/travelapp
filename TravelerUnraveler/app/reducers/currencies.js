@@ -1,4 +1,9 @@
-import { CHANGE_CURRENCY_AMOUNT, SWAP_CURRENCY, CHANGE_BASE_CURRENCY, CHANGE_QUOTE_CURRENCY } from '../actions/currencies';
+import {
+  CHANGE_CURRENCY_AMOUNT,
+  SWAP_CURRENCY,
+  CHANGE_BASE_CURRENCY,
+  CHANGE_QUOTE_CURRENCY,
+} from '../actions/currencies';
 
 // const initialState = {
 //   baseCurrency: 'USD',
@@ -61,7 +66,7 @@ const setConversions = (state, action) => {
   };
 
   if (state.conversions[action.currency]) {
-    conversion = state.conversion[action.currency];
+    conversion = state.conversions[action.currency];
   }
 
   return {
@@ -73,10 +78,7 @@ const setConversions = (state, action) => {
 export default (state = initialState, action) => {
   switch (action.type) {
     case CHANGE_CURRENCY_AMOUNT:
-      return {
-        ...state,
-        amount: action.amount || 0,
-      };
+      return { ...state, amount: action.amount || 0 };
     case SWAP_CURRENCY:
       return {
         ...state,
