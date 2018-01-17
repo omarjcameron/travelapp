@@ -11,7 +11,7 @@ On a recent honeymoon trip, my wife and I went off the grid and realize that it'
 
 This application has been deployed to Expo and is accessible here:
 
-https://dailyhabits.herokuapp.com
+https://expo.io/@omarjcameron/travelerunraveler
 
 ### Languages, Frameworks & APIs
 
