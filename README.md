@@ -1,4 +1,4 @@
-![Traveler Unraveler](travelerunraveler.jpg)
+![Traveler Unraveler](https://github.com/omarjcameron/travelerunraveler/blob/master/TravelerUnraveler/travelerunraveler.jpg)
 
 ### Synopsis
 
