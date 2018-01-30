@@ -2,7 +2,7 @@
 
 ### Synopsis
 
-Traveler Unraveler - You're favorite currency converter.
+Traveler Unraveler - Your new favorite currency converter.
 
 ### Motivation
 
